@@ -20,4 +20,13 @@ function isCorrect(word, guess) {
   return false; // ← placeholder so tests fail
 }
 
+
+
+const start = Date.now();
+
+
 module.exports = { scrambleWord, isCorrect };
+
+const end = Date.now();
+console.log(`Execution time: ${end - start} ms`);
+
